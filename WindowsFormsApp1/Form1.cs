@@ -20,15 +20,15 @@ namespace WindowsFormsApp1
     /// <summary>
     /// Левая граница графика
     /// </summary>
-    private double XMin = -Math.PI;
+    private double XMin = -0.9;
     /// <summary>
     /// Правая граница графика
     /// </summary>
-    private double XMax = Math.PI;
+    private double XMax = 3.1;
     /// <summary>
     /// Шаг графика
     /// </summary>
-    private double Step = (Math.PI * 2) / 10;
+    private double Step = 0.1;
     // Массив значений X - общий для обоих графиков
     private double[] x;
     // Два массива Y - по одному для каждого графика
